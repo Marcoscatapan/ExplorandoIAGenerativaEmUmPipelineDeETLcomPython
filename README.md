@@ -1,4 +1,4 @@
-# 🤖 EXPLORANDO IA GENERATIVA EM UM PIPELINE DE ETL COM PYTHON 📊
+# 🤖 EXPLORANDO IA GENERATIVA EM UM PIPELINE DE ETL COM PYTHON 
 
 Bem-vindo ao desafio de projeto "Explorando IA Generativa em um Pipeline de ETL com Python"! Este projeto é uma jornada prática pelo mundo da Ciência de Dados, onde vamos construir um pipeline ETL (Extração, Transformação e Carregamento) integrando dados de uma planilha, transformando-os com a IA do GPT-4 da OpenAI, e carregando essas informações de volta para um sistema usando Python.
 
