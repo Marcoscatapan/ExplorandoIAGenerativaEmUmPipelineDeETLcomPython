@@ -1,53 +1,79 @@
-# Explorando IA Generativa em um Pipeline de ETL com Python
+# 🤖 EXPLORANDO IA GENERATIVA EM UM PIPELINE DE ETL COM PYTHON 📊
 
-###
-[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT) 
+Bem-vindo ao desafio de projeto "Explorando IA Generativa em um Pipeline de ETL com Python"! Este projeto é uma jornada prática pelo mundo da Ciência de Dados, onde vamos construir um pipeline ETL (Extração, Transformação e Carregamento) integrando dados de uma planilha, transformando-os com a IA do GPT-4 da OpenAI, e carregando essas informações de volta para um sistema usando Python.
 
-### Sobre:
+🎯 Objetivo
 
-Projeto para a exploração de IA generativa em uma pipeline de ETL com Python.
+O objetivo deste projeto é explorar como a Inteligência Artificial pode ser integrada em um pipeline de ETL para transformar dados de usuários em mensagens personalizadas de marketing, utilizando o modelo GPT-4 da OpenAI. Vamos exemplificar como dados são extraídos de uma fonte, transformados usando IA para criar conteúdo relevante, e carregados de volta ao sistema de origem.
 
-### Proposta: 
+📊 Funcionalidades
 
-Este projeto visa aprimorar o envolvimento do cliente através da personalização de mensagens de marketing. Empregaremos a IA Generativa para criar mensagens exclusivas que ressoem com as necessidades e aspirações individuais de cada cliente.
+1. Extração de Dados: Iniciamos com a extração de IDs de usuários de uma planilha simples.
 
-### Estrutura do Repositório:
-- <strong>data:</strong> Encontrará o arquivo **.csv** com os dados utilizados para a análise.
-- <strong>notebook:</strong> Este diretório contém o notebook Jupyter onde a análise foi realizada e os resultados obtidos.
-- <strong>readme_translated:</strong>This repository contains the PDF with the report translated into English.
+2. Transformação com IA: Utilizamos o GPT-4 da OpenAI para transformar esses dados em mensagens de marketing personalizadas.
 
-### Linguagem Utilizada:
-###
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white&color=black)
+3. Carregamento de Dados: As mensagens geradas são carregadas de volta para a API da 'Santander Dev Week 2023', demonstrando o ciclo completo de um pipeline ETL.
 
-### Bibliotecas Utilizadas:
-###
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white&color=black) 	![OpenAI](https://img.shields.io/badge/OpenAI-%233F4F75.svg?style=for-the-badge&logoColor=white&color=black)
+📝 Como Executar
 
-### Metodologia:
+1. Clone este repositório para o seu ambiente local.
 
-- <strong>Coleta e Aquisição dos Dados:</strong>
+2. Certifique-se de ter Python instalado em sua máquina.
 
-  Utilizando um arquivo **.csv**, que contém uma relação de identificações de clientes, será o ponto de partida para a obtenção de informações personalizadas sobre cada cliente.
-  
-  Através da conexão com a **API**, foi acessado informações detalhadas de cada cliente, tendo como referência os identificadores listados no arquivo **csv**.
+3. Instale as bibliotecas necessárias executando pip install -r requirements.txt.
 
-- <strong>Utilizando a IA:</strong>
+4. Execute o script principal análise e obtenção de dados.ipynb para iniciar o processo.
 
-  Foi utilizada a **API** do **ChatGPT** da **OpenAI** para elaborar mensagens de marketing altamente personalizadas para cada cliente. O objetivo principal será ressaltar a importância e as vantagens, levando em consideração os dados e as preferências individuais de   cada cliente de maneira precisa.
+🤖 Tecnologias Utilizadas
 
-- <strong>Carregando Informações:</strong>
+- Python
 
-  Uma vez que as mensagens personalizadas estejam prontas, são enviadas de volta essas informações a **API**. Isso atualizará a lista de **"news"** de cada usuário, garantindo que as mensagens personalizadas sejam entregues de maneira adequada.
+- OpenAI GPT-4
 
-### Conclusão:
+- Pandas
 
-Através da aplicação da **IA Generativa**, este projeto tem como objetivo redefinir a maneira pela qual a empresa se comunica com sua base de clientes. Ao criar mensagens de marketing personalizadas, temos a intenção de fortalecer os laços com os clientes, impulsionando um maior entendimento e engajamento com os serviços oferecidos.
+- Requests
 
----
-### Contato:
+- APIs REST
 
-<div>
-  <a href="https://linkedin.com/in/marcospontesjunior" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=black" target="_blank"></a>  
-  <a href = "mailto:marcospntsjunior@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=black" target="_blank"></a>
-</div>
+🌐 APIs Utilizadas
+
+API da 'Santander Dev Week 2023': Para extração e carregamento de dados.
+
+🧠 Aprendizados
+
+Este projeto proporciona uma experiência prática com:
+
+- Integração de IA em pipelines de ETL.
+
+- Manipulação de dados com Pandas.
+
+- Interação com APIs REST para extração e carregamento de dados.
+
+🚀 Próximos Passos
+
+- Explorar outras técnicas de IA para aprimorar a geração de conteúdo.
+
+- Implementar visualizações de dados para análise dos resultados gerados.
+
+- Escalar o pipeline para lidar com grandes volumes de dados de forma eficiente.
+
+🤝 Contribuição
+
+Se deseja contribuir para este projeto, siga estas etapas:
+
+1. Faça um fork do repositório.
+
+2. Crie uma branch para sua nova feature (git checkout -b feature/nova-feature).
+
+3. Implemente suas melhorias e novas funcionalidades.
+
+4. Commit suas mudanças (git commit -am 'Adiciona uma nova feature').
+
+5. Push para a branch (git push origin feature/nova-feature).
+
+6. Crie um novo Pull Request.
+
+📋 Síntese do Projeto
+
+Este projeto "Explorando IA Generativa em um Pipeline de ETL com Python" apresenta um pipeline de ETL robusto, integrando dados de uma planilha, transformando-os com o GPT-4 da OpenAI para criar mensagens de marketing personalizadas, e carregando essas mensagens de volta para a API da 'Santander Dev Week 2023'.
